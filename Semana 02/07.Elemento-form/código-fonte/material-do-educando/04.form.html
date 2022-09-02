@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Forms em HTML</title>
+    </head>
+    <body>
+        <header>
+            <h1>Exemplo de formulário no HTML</h1>
+        </header>
+
+        <label for="nome">Nome:</label>
+        <input type="text">
+
+        <p>Você mora:</p>
+        <input type="radio" id="cid" name="lugar">
+        <label for="cid">Cidade</label>
+        <input type="radio" id="int" name="lugar">
+        <label for="int">Interior</label>
+
+        <p>Qual meio de transporte você usa?</p>
+        <input type="checkbox" id="transporte1" name="bike">
+        <label for="transporte1">Bicicleta</label>
+        <input type="checkbox" id="transporte2" name="carro">
+        <label for="transporte2">Carro</label>
+        <input type="checkbox" id="transporte3" name="metrô">
+        <label for="transporte3">Metrô</label>
+        <input type="checkbox" id="transporte4" name="ônibus">
+        <label for="transporte4">Ônibus</label>
+
+        <p>Selecione seu time:</p>
+        <select id="time" name="time">
+            <option value="cruzeiro">Cruzeiro</option>
+            <option value="sao_paulo">São Paulo</option>
+            <option value="corinthians">Corinthians</option>
+            <option value="gremio">Grêmio</option>
+            <option value="goiás">Goiás</option>
+            <option value="santos">Santos</option>
+        </select><br/><br/>
+
+        <label for="cCid">Escolha a sua Cidade na lista:</label>
+        <input autocomplete="on" list="cidade" name="Tcid" id="cCid" placeholder="Sua cidade">
+        <datalist id="cidade">
+            <option value="São Paulo"></option>
+            <option value="Campinas"></option>
+            <option value="Santos"></option>
+            <option value="Santo André"></option>
+            <option value="Osasco"></option>
+        </datalist><br/><br/>
+
+        0
+        <input type="range" id="valor_01" name="valor_01" />
+        100
+
+        <footer>
+            <small>
+                Copyright&copy; - Todos os direitos reservados.
+            </small>
+        </footer>
+    </body>
+</html>

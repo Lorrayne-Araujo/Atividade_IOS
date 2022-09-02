@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Elementos textuais</title>
+    </head>
+    <body>
+        <!--Cabeçalho-->
+        <header>
+            <h1>Elementos textuais em HTML</h1>
+            <p>Autor: Rafael Lopes dos Santos</p>
+        </header>
+        <!--Artigo-->
+        <article>
+            <!--Parágrafo e texto em STRONG: negrito-->
+            <p><strong>Elemento abbr:</strong><br/>
+                <!-- ABBR: Representa uma abreviação onde pode atribuir o title com o texto completo da abreviação-->
+                <abbr title="Hypertext Markup Language">HTML</abbr>
+            </p>
+            
+            <p><strong>Elemento dfn:</strong><br/>
+                <!--DFN: Definição de texto, para identificar a definição de uma palavra ou termo, geralmente aparece em itálico-->
+                <dfn>O HTML é uma linguagem de marcação padrão para criar páginas web.</dfn>
+            </p>
+
+            <!--I: Texto em itálico, não tem importância extra -->
+            <p><i>Elementos kbd e q:</i><br/>
+                <!--Q: Para sinalizar aspas no texto-->
+                <!--KBD: Representa um intervalo de texto embutido que denota a entrada textual do usuário de um teclado, entrada de voz ou outra entrada-->
+                <q>No Windows, o atalho <kbd>Ctrl</kbd> + <kbd>C</kbd> copia o texto.</q><br/>
+                <q>No MAC, o atalho <kbd>Cmd</kbd> + <kbd>C</kbd> copia o texto.</q>
+            </p>
+
+            <!--B: Usado para chamar atenção do leitor para o conteúdo, que de outra forma não recebe importância especial-->
+            <p><b>Elementos mark e data:</b><br/>
+                <!--MARK: Representa um texto marcado ou destacado-->
+                Os produtos estão associados o seu <mark>nome ao número do produto</mark><br/>
+                <!--DATA: São os dados ao texto, associa um valor de dados ao texto marcado com o atributo de valor fornecendo o valor-->
+                <data value="21053">Tomate Cereja</data><br/>
+                <data value="21054">Tomate Caqui</data><br/>
+                <data value="21055">Tomate Italiano</data>
+            </p>
+            
+            <p><strong>Elemento samp:</strong><br/>
+                Mensagem do meu computador<br/>
+                <!--SAMP: Representa amostra de texto, geralmente uma fonte de espaçamento fixo-->
+                <samp>Arquivo não encontrado. <br/> Pressicione F1 para continuar</samp>
+            </p>
+
+            <p><i>Elemento small:</i><br/>
+                <!--SMALL: Deixa o texto menor-->
+                Texto normal e <small>texto menor</small>
+            </p>
+
+            <p><b>Elemento var:</b><br/>
+                <!--VAR: Representa texto de variáveis, identifica e exibe uma variável ou saída de programa, geralmente exibe em itálico-->
+                A área do triângulo é: 1/2 * <var>b</var> * <var>h</var><br/>
+                Onde: b é a base e h é a altura do triângulo.
+            </p>
+
+            <p><b>Elementos sup e sub:</b><br/>
+                <!--SUP: O texto é sobrescrito acima da linha de base do texto-->
+                Exemplo de texto sobrescrito: a*x <sup>2</sup> + b*x + c<br/>
+                <!--SUB: O texto é sobrescrito abaixo da linha de base do texto-->
+                Exemplo de texto sobscrito: a raízes são: x <sub>1</sub> e x <sub>2</sub>
+            </p>
+
+            <p><b>Elementos s e time:</b><br/>
+                <!--S: Representa o texto tachado ou riscado-->
+                Estamos cortando os <s>preços</s>: <br/>
+                <s>De R$100,00</s><br/>
+                Por R$ 50,00<br/>
+                <!--TIME: Representa um período específico no tempo-->
+                Estamos abertos de <time>10:00</time> as <time>21:00</time>!
+            </p>
+        </article>
+
+        <footer>
+            <a href="mailto:seuemail@example.com">seuemail@example.com</a>
+        </footer>
+    </body>
+</html>
