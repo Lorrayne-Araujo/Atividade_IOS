@@ -1,5 +1,12 @@
+@charset "utf-8";
+@media(max-width: 768px) {
+    body{
+        width: 100%;
+    }
+}
 body{
-    background-color: #999; 
+    background-color: #999;
+    
 }
 
 h1, h2{
@@ -20,9 +27,7 @@ nav{
     background-color: #993399;
 }
 
-#curiosidades, p, ol, table, footer{
-    
-    
+#curiosidades, p, ol, table, footer{    
     margin-top: 30px;
     margin-bottom: 30px;
     background-color: #993399;
@@ -30,5 +35,26 @@ nav{
 
 a{
     color: white;
+    font-weight: bolder;
+    text-decoration: none;   
 }
 
+.menu-item{
+    padding: 15px;
+}
+
+img {
+    border-radius: 15px;
+}
+
+.menu-item:hover {
+    background-color: #993399;
+    border-radius: 15px;
+    transition: 250ms;
+}
+
+a:hover{
+    background-color: #999;
+    border-radius: 15px;
+    transition: 250ms;
+}

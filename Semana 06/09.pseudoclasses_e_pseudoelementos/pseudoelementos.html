@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pseudoelementos</title>
+        <style>
+            /*Inseri conteúdo antes*/
+            p::before{
+                content: "Leia isso - ";
+            }
+            /*Inseri conteúdo depois*/
+            p::after{
+                content: " - Leia Mais";
+            }
+            /*Altera as primeiras letras dos parágrafos*/
+            p::first-letter{
+                font-size: 200%;
+                color: crimson;
+            }
+            /*Altera a cor de fundo das primeiras linhas de todos parágrafos*/
+            p::first-line{
+                    background-color: darkmagenta;
+            }
+           
+            /*Determina a cor de fundo e da letra para o conteúdo de um elemento selecionado com o mouse*/
+            ::selection{
+                color: gold;
+                background-color: red;
+            }
+            p::selection{
+                color: white;
+                background-color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Bem-vindo</h1>
+
+        <p>Meu nome é Donald</p>
+        <p>Eu moro em in Ducksburg</p>
+        <p>Meu melhor amigo é o Mickey</p>
+
+        <h2>IOS</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime molestiae dignissimos culpa perspiciatis natus hic odio dolore! Minima ullam ratione molestias velit, facere repudiandae aut tempora, placeat consectetur voluptas nulla?</p> 
+        <h2>Selecione com o mouse parte do texto:</h2>
+        <p>Esse é um parágrafo</p>
+        <div>Esse é um texto do elemento div</div>
+    </body> 
+</html>

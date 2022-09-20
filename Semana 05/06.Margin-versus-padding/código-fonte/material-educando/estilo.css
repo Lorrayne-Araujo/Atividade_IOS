@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+*{
+   margin: 0;
+   padding: 0;
+   border: none;
+   top: 0;
+}
+
+body{
+    background-color: grey;
+    color: honeydew;
+    font: normal 16px Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn{
+    background-color: black;
+    color: blueviolet;
+    padding: 10px 15px;
+    border: none;
+}
+
+.container{
+    width: 80%;
+    margin: 20px 30px;
+}
+
+.box1{
+    background-color: blueviolet;
+    color: black;
+    border: 5px red solid;
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style: dotted;
+    padding: 20px;
+}

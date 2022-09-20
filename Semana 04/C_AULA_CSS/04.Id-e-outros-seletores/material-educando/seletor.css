@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+*{
+    background-color: #49274a;
+    color: #f8eee7;
+}
+
+article p {
+    background-color: #f4decb;
+    color: black;
+}

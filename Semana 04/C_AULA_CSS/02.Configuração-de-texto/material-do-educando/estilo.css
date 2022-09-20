@@ -1,0 +1,47 @@
+@charset "utf-8";
+body{
+    /*Configura a cor de fundo do elemento*/
+    background-color: #e6e6fa;
+    /*Configura a cor do texto do elemento*/
+    color: #191970;
+    
+}
+
+h1{
+    background-color: #191970;
+    color: #e6e6fa;
+    /*Configura a familia de fonte*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /*Configura a sombra do texto */
+    text-shadow: 3px 3px 5px red;
+    /*Configura o espaçamento permitido para a linha de texto*/
+    line-height: 200%;
+}
+
+h2{
+    background-color: #aeaed4;
+    color: #191970;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /*Configura o alinhamento do texto*/
+    text-align: center;
+}
+
+p{
+    /*Configura  o recuo da primeira linha*/
+    text-indent: 3em;
+    /*Configura o tamanho da fonte*/
+    font-size: 0.90em;
+}
+
+ul{
+    /*Negrito ou grossura do texto*/
+    font-weight: bold;
+}
+
+footer{
+    /*Estilo da fonte*/
+    font-style: italic;
+    font-size: 0.75em;
+    color: #333333;
+    font-family: 'Courier New', Courier, monospace;
+}
