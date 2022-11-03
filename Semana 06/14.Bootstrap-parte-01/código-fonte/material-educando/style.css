@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/*Estilizando cor e tipos de fonte do corpo*/
+body {
+    background-color: rgb(102, 102, 252);
+    font-family: 'PT Serif', serif;
+}
+/*Alinhando o titulo principal*/
+h1 {
+    text-align: center;
+}
+/*Estilizando cor do fundo, margens, preenchimento entre texto e borda, raio da borda e tamanho da borda*/
+form {
+    background-color: white;
+    margin: 3em 15em 3em 15em;
+    padding: 0.5em;
+    border-radius: 1em;
+    border: 0.1em solid black;
+}
+/*Estilizando cor de fundo, cor do texto, alinhamento de texto, preenchimento entre texto e borda, raio da borda*/
+h5 {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+/*Configurando a margem esquerda da legenda*/
+label {
+    margin-left: 0.2em;
+}
+/*Configurando a margem esquerda da caixa em que o usuário irá digitar*/
+input{
+    margin-left: 0.3em;
+}
+/*Configurando margens do botão de enviar*/
+.btn {
+    margin: 0.5em 15em 0.5em 15em;
+}

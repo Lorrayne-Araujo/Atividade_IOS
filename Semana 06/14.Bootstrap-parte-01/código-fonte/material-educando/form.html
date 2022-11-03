@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aluga carros</title>
+        <!--Começo do CSS Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <!--Fim do CSS Bootstrap -->
+        <!--Fontes -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+        <!--Fim das fontes-->
+        <!--Começo do CSS Externo-->
+        <link rel="stylesheet" href="style.css">
+        <!--Fim do CSS Externo -->
+    </head>
+    <body>
+        <header>
+            <h1>Alugue seu carro com a gente!</h1>
+        </header>
+        <main>   
+            <form action="#">
+                <h5>Cadastro de aluguel de carros</h5>
+                <!--Inicio dos campos de dados do solicitante-->
+                <div class="row g-3">
+                    <div class="col-auto">
+                        <label for="Name">Nome:</label>
+                        <input type="text" class="form-control" id="Name" placeholder="Lorrayne Araujo">
+                    </div>
+                    <div class="col-auto">
+                      <label for="staticEmail2">Email:</label>
+                      <input type="text" class="form-control" id="staticEmail2" placeholder="email@example.com">
+                    </div>
+                    <div class="col-auto">
+                        <label for="Cpf">CPF:</label>
+                        <input type="text" class="form-control" id="Cpf" placeholder="111.111.111-11">
+                    </div>
+                </div>
+                <!--Fim dos campos de dados do solicitante-->
+                <hr>
+                <!--Inicio dos campos de dados da cidades-->
+                <div class="form-check">
+                    <input type="checkbox" id="sp" name="saopaulo">
+                    <label for="sp">São Paulo</label>
+                    <input type="checkbox" id="rj" name="riodejaneiro">
+                    <label for="rj">Rio de Janeiro</label>
+                    <input type="checkbox" id="bh" name="belohorizonte">
+                    <label for="bh">Belo Horizonte</label>
+                    <input type="checkbox" id="cb" name="curitiba">
+                    <label for="cb">Curitiba</label>
+                    <input type="checkbox" id="flz" name="fortaleza">
+                    <label for="flz">Fortaleza</label>
+                </div>
+                <!--Fim dos campos de dados das cidades-->
+                <hr>
+                <!--Inicio dos campos de carros disponíveis-->
+                <div class="form-check">
+                    <input type="radio" name="flexRadioDefault" id="gol">
+                    <label for="gol">Gol </label>
+                    <input type="radio" name="flexRadioDefault" id="crossFox">
+                    <label for="crossFox">CrossFox</label>
+                    <input type="radio" name="flexRadioDefault" id="voyage">
+                    <label for="voyage">Voyage</label>
+                    <input  type="radio" name="flexRadioDefault" id="space">
+                    <label for="space">Space Fox</label>
+                </div>
+                <!--Fim dos campos de carros disponíveis-->
+                <hr>
+                <!--Inicio do botão de aceite-->
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                    <label class="form-check-label" for="flexSwitchCheckDefault">Li e concordo com os termos de uso </label>
+                </div>
+                <!--Fim do botão de aceite-->
+                <!--Inicio do botão de enviar-->
+                <button type="button" class="btn btn-dark">Enviar</button>
+                <!--Fim do botão de enviar-->
+            </form>
+        </main>
+    </body>
+</html>

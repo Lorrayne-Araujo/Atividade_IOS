@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+#container {
+    display: flex;
+   /* height: 500px;
+    width: 500px; */
+    border: 3px solid navy;
+    /* flex-direction: row; */
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+.dv1{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+}
+
+.dv2{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+.dv3{
+    background-color: firebrick;
+    width: 200px;
+    height: 200px;
+}
+
+.dv4{
+    background-color: cadetblue;
+    width: 200px;
+    height: 200px;
+}

@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+
+body{
+    font-family: "Tahoma", sans-serif;
+    background: #4b3c5d;
+    color: #c5a898;
+}
+
+h1{
+    text-align: center;
+}
+
+.col{
+    float: left;
+    width: 30%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.price-box{
+    background: #21203f;
+    color: whitesmoke;
+    list-style-type: none;
+    border: 1px solid #fff1ce;
+    margin: 0;
+    padding: 0;
+}
+
+.price-box .header{
+    background: #c5a898;
+    color: #21203f;
+    font-size: 25px;
+}
+
+.price-box .header.header-green{
+    background: #4caf50;
+}
+
+.price-box li{
+    padding: 20px;
+    border-bottom: 20px solid #4b3c5d;
+    text-align: center;
+}
+
+.btn {
+    background-color: #c5a898;
+    border: none;
+    color: #21203f;
+    padding: 10px 15px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .col{
+        width: 100%;
+    }
+}
